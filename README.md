@@ -5,3 +5,5 @@ I am currently studying electrical engineering, but I also have extensive experi
 I am a hobbyist by nature, and love all kinds of technical crafts. I am an Extra class Amateur Radio Operator, and I love all things involved in radio design from the rudimentary knowledge that I have of the intricicies. I also love 3D printing, and designed and built my own 3D printer from scratch, which was and is a blast.
 
 Included here are some of the projects that I have worked on recently, some of which have their own repositories but have been copied here so that I can add some more of my own commentary on what I did in the project, what I learned, and how I would do it differently with what I've learned.
+
+You can enter the repository of my profile to see a compilation of the projects that I have particularly enjoyed and I think serve as good examples of what I am capable of [here](https://github.com/Trevader24135/Trevader24135)
