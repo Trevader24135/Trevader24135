@@ -6,7 +6,7 @@ The step file as well as the Fusion 360 archive file are available to download, 
 
 <table>
     <tr>
-        <td width=34%><img src="FusionScreenShot.png"/></td>
+        <td width=34%><img src="FusionScreenshot.png"/></td>
         <td width=33%><img src="PictureAngled.jpg"/></td>
         <td width=33%><img src="PictureStraight.jpg"/></td>
     </tr>
