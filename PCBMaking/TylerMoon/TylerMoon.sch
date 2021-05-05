@@ -1,0 +1,281 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_Microchip_ATtiny:ATtiny85-20PU U1
+U 1 1 5FD9C121
+P 5300 2150
+F 0 "U1" H 4771 2196 50  0000 R CNN
+F 1 "ATtiny85-20PU" H 4771 2105 50  0000 R CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 5300 2150 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf" H 5300 2150 50  0001 C CNN
+	1    5300 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BC546 Q1
+U 1 1 5FD9D451
+P 7050 2550
+F 0 "Q1" H 7241 2596 50  0000 L CNN
+F 1 "BC546" H 7241 2505 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 7250 2475 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 7050 2550 50  0001 L CNN
+	1    7050 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 5FD9DE10
+P 7050 1650
+F 0 "D1" H 7043 1867 50  0000 C CNN
+F 1 "LED" H 7043 1776 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 7050 1650 50  0001 C CNN
+F 3 "~" H 7050 1650 50  0001 C CNN
+	1    7050 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Transistor_BJT:BC546 Q2
+U 1 1 5FDA0F25
+P 7750 2550
+F 0 "Q2" H 7941 2596 50  0000 L CNN
+F 1 "BC546" H 7941 2505 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 7950 2475 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 7750 2550 50  0001 L CNN
+	1    7750 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BC546 Q3
+U 1 1 5FDA1963
+P 8450 2550
+F 0 "Q3" H 8641 2596 50  0000 L CNN
+F 1 "BC546" H 8641 2505 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 8650 2475 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 8450 2550 50  0001 L CNN
+	1    8450 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 2750 7850 2750
+Wire Wire Line
+	7850 2750 8550 2750
+Connection ~ 7850 2750
+Wire Wire Line
+	6850 2550 6750 2550
+Wire Wire Line
+	6750 1850 5900 1850
+Wire Wire Line
+	7550 2550 7450 2550
+Wire Wire Line
+	7450 2550 7450 2050
+Wire Wire Line
+	7450 2050 5900 2050
+Wire Wire Line
+	6750 1850 6750 2550
+Wire Wire Line
+	8250 2550 8250 2250
+Wire Wire Line
+	8250 2250 5900 2250
+$Comp
+L Device:LED D2
+U 1 1 5FDA9B14
+P 7250 1650
+F 0 "D2" H 7243 1867 50  0000 C CNN
+F 1 "LED" H 7243 1776 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 7250 1650 50  0001 C CNN
+F 3 "~" H 7250 1650 50  0001 C CNN
+	1    7250 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D3
+U 1 1 5FDAA553
+P 7750 1650
+F 0 "D3" H 7743 1867 50  0000 C CNN
+F 1 "LED" H 7743 1776 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 7750 1650 50  0001 C CNN
+F 3 "~" H 7750 1650 50  0001 C CNN
+	1    7750 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D4
+U 1 1 5FDAA559
+P 7950 1650
+F 0 "D4" H 7943 1867 50  0000 C CNN
+F 1 "LED" H 7943 1776 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 7950 1650 50  0001 C CNN
+F 3 "~" H 7950 1650 50  0001 C CNN
+	1    7950 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D5
+U 1 1 5FDAB020
+P 8450 1650
+F 0 "D5" H 8443 1867 50  0000 C CNN
+F 1 "LED" H 8443 1776 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 8450 1650 50  0001 C CNN
+F 3 "~" H 8450 1650 50  0001 C CNN
+	1    8450 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D6
+U 1 1 5FDAB026
+P 8650 1650
+F 0 "D6" H 8643 1867 50  0000 C CNN
+F 1 "LED" H 8643 1776 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 8650 1650 50  0001 C CNN
+F 3 "~" H 8650 1650 50  0001 C CNN
+	1    8650 1650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7050 1800 7150 1800
+Wire Wire Line
+	7150 1800 7150 2350
+Connection ~ 7150 1800
+Wire Wire Line
+	7150 1800 7250 1800
+Wire Wire Line
+	7750 1800 7850 1800
+Wire Wire Line
+	7850 1800 7850 2350
+Connection ~ 7850 1800
+Wire Wire Line
+	7850 1800 7950 1800
+Wire Wire Line
+	8450 1800 8550 1800
+Wire Wire Line
+	8550 1800 8550 2350
+Connection ~ 8550 1800
+Wire Wire Line
+	8550 1800 8650 1800
+Wire Wire Line
+	5900 1950 6300 1950
+Wire Wire Line
+	6300 1950 6300 1400
+Wire Wire Line
+	6300 1400 7050 1400
+Wire Wire Line
+	7050 1400 7050 1500
+Wire Wire Line
+	7750 1400 7750 1500
+Wire Wire Line
+	7750 1400 8450 1400
+Wire Wire Line
+	8450 1400 8450 1500
+Connection ~ 7750 1400
+Wire Wire Line
+	7050 1400 7750 1400
+Connection ~ 7050 1400
+Wire Wire Line
+	5900 2150 6350 2150
+Wire Wire Line
+	6350 2150 6350 1450
+Wire Wire Line
+	6350 1450 7250 1450
+Wire Wire Line
+	7250 1450 7250 1500
+Wire Wire Line
+	7250 1450 7950 1450
+Wire Wire Line
+	7950 1450 7950 1500
+Connection ~ 7250 1450
+Wire Wire Line
+	7950 1450 8650 1450
+Wire Wire Line
+	8650 1450 8650 1500
+Connection ~ 7950 1450
+$Comp
+L Connector:Conn_01x02_Female J1
+U 1 1 5FDAF990
+P 3850 2200
+F 0 "J1" H 3742 1875 50  0000 C CNN
+F 1 "Conn_01x02_Female" H 3742 1966 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 3850 2200 50  0001 C CNN
+F 3 "~" H 3850 2200 50  0001 C CNN
+	1    3850 2200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5300 1550 4050 1550
+Wire Wire Line
+	4050 1550 4050 2100
+Wire Wire Line
+	5300 2750 4050 2750
+Wire Wire Line
+	4050 2750 4050 2200
+$Comp
+L Device:R_Small_US R2
+U 1 1 5FDB4864
+P 5950 2500
+F 0 "R2" H 6018 2546 50  0000 L CNN
+F 1 "R_Small_US" H 6018 2455 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 5950 2500 50  0001 C CNN
+F 3 "~" H 5950 2500 50  0001 C CNN
+	1    5950 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R1
+U 1 1 5FDB6D35
+P 5950 1700
+F 0 "R1" H 6018 1746 50  0000 L CNN
+F 1 "R_Small_US" H 6018 1655 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 5950 1700 50  0001 C CNN
+F 3 "~" H 5950 1700 50  0001 C CNN
+	1    5950 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 1800 5950 2350
+Wire Wire Line
+	5950 2350 5900 2350
+Connection ~ 5950 2350
+Wire Wire Line
+	5950 2350 5950 2400
+Wire Wire Line
+	5950 1600 5950 1550
+Wire Wire Line
+	5950 1550 5300 1550
+Connection ~ 5300 1550
+Wire Wire Line
+	7150 2750 6550 2750
+Connection ~ 7150 2750
+Connection ~ 5300 2750
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5FDBCD66
+P 6300 2600
+F 0 "SW1" H 6300 2885 50  0000 C CNN
+F 1 "SW_Push" H 6300 2794 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_Tactile_Straight_KSA0Axx1LFTR" H 6300 2800 50  0001 C CNN
+F 3 "~" H 6300 2800 50  0001 C CNN
+	1    6300 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 2600 5950 2600
+Wire Wire Line
+	6550 2600 6550 2750
+Connection ~ 6550 2750
+Wire Wire Line
+	5300 2750 6550 2750
+Wire Wire Line
+	6550 2600 6500 2600
+$EndSCHEMATC

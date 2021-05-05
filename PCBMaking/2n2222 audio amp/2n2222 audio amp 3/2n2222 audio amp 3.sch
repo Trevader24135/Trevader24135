@@ -1,0 +1,97 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:Q_NPN_EBC Q?
+U 1 1 5F6A0352
+P 5800 3750
+F 0 "Q?" H 5991 3796 50  0000 L CNN
+F 1 "Q_NPN_EBC" H 5991 3705 50  0000 L CNN
+F 2 "" H 6000 3850 50  0001 C CNN
+F 3 "~" H 5800 3750 50  0001 C CNN
+	1    5800 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5F6A0DB5
+P 5500 4100
+F 0 "R?" H 5432 4054 50  0000 R CNN
+F 1 "R_US" H 5432 4145 50  0000 R CNN
+F 2 "" V 5540 4090 50  0001 C CNN
+F 3 "~" H 5500 4100 50  0001 C CNN
+	1    5500 4100
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5F6A1844
+P 5500 3400
+F 0 "R?" H 5432 3354 50  0000 R CNN
+F 1 "R_US" H 5432 3445 50  0000 R CNN
+F 2 "" V 5540 3390 50  0001 C CNN
+F 3 "~" H 5500 3400 50  0001 C CNN
+	1    5500 3400
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F6A33A0
+P 5900 4250
+F 0 "#PWR?" H 5900 4000 50  0001 C CNN
+F 1 "GND" H 5905 4077 50  0000 C CNN
+F 2 "" H 5900 4250 50  0001 C CNN
+F 3 "" H 5900 4250 50  0001 C CNN
+	1    5900 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 4250 5900 4250
+Wire Wire Line
+	5900 3950 5900 4250
+Connection ~ 5900 4250
+Wire Wire Line
+	5500 3950 5500 3750
+Wire Wire Line
+	5600 3750 5500 3750
+Connection ~ 5500 3750
+Wire Wire Line
+	5500 3750 5500 3550
+$Comp
+L Device:R_US R?
+U 1 1 5F6A809C
+P 5900 3400
+F 0 "R?" H 5832 3354 50  0000 R CNN
+F 1 "R_US" H 5832 3445 50  0000 R CNN
+F 2 "" V 5940 3390 50  0001 C CNN
+F 3 "~" H 5900 3400 50  0001 C CNN
+	1    5900 3400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5900 3250 5500 3250
+$Comp
+L power:+5V #PWR?
+U 1 1 5F6A8296
+P 5900 3250
+F 0 "#PWR?" H 5900 3100 50  0001 C CNN
+F 1 "+5V" H 5915 3423 50  0000 C CNN
+F 2 "" H 5900 3250 50  0001 C CNN
+F 3 "" H 5900 3250 50  0001 C CNN
+	1    5900 3250
+	1    0    0    -1  
+$EndComp
+Connection ~ 5900 3250
+$EndSCHEMATC

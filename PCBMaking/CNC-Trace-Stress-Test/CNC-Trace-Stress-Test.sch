@@ -1,0 +1,104 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R_US R1
+U 1 1 5F6647B9
+P 4800 3250
+F 0 "R1" H 4868 3296 50  0000 L CNN
+F 1 "R_US" H 4868 3205 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 4840 3240 50  0001 C CNN
+F 3 "~" H 4800 3250 50  0001 C CNN
+	1    4800 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R2
+U 1 1 5F66690A
+P 5150 3250
+F 0 "R2" H 5218 3296 50  0000 L CNN
+F 1 "R_US" H 5218 3205 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 5190 3240 50  0001 C CNN
+F 3 "~" H 5150 3250 50  0001 C CNN
+	1    5150 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R3
+U 1 1 5F666E78
+P 5500 3250
+F 0 "R3" H 5568 3296 50  0000 L CNN
+F 1 "R_US" H 5568 3205 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 5540 3240 50  0001 C CNN
+F 3 "~" H 5500 3250 50  0001 C CNN
+	1    5500 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R4
+U 1 1 5F6673D3
+P 5850 3250
+F 0 "R4" H 5918 3296 50  0000 L CNN
+F 1 "R_US" H 5918 3205 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 5890 3240 50  0001 C CNN
+F 3 "~" H 5850 3250 50  0001 C CNN
+	1    5850 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R5
+U 1 1 5F667A93
+P 6200 3250
+F 0 "R5" H 6268 3296 50  0000 L CNN
+F 1 "R_US" H 6268 3205 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 6240 3240 50  0001 C CNN
+F 3 "~" H 6200 3250 50  0001 C CNN
+	1    6200 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 3400 5150 3400
+Connection ~ 5150 3400
+Wire Wire Line
+	5150 3400 5500 3400
+Connection ~ 5500 3400
+Wire Wire Line
+	5500 3400 5850 3400
+Connection ~ 5850 3400
+Wire Wire Line
+	5850 3400 6200 3400
+$Comp
+L power:GND #PWR01
+U 1 1 5F667F0D
+P 5500 3400
+F 0 "#PWR01" H 5500 3150 50  0001 C CNN
+F 1 "GND" H 5505 3227 50  0000 C CNN
+F 2 "" H 5500 3400 50  0001 C CNN
+F 3 "" H 5500 3400 50  0001 C CNN
+	1    5500 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 3100 5150 3100
+Connection ~ 5150 3100
+Wire Wire Line
+	5150 3100 5500 3100
+Connection ~ 5500 3100
+Wire Wire Line
+	5500 3100 5850 3100
+Connection ~ 5850 3100
+Wire Wire Line
+	5850 3100 6200 3100
+$EndSCHEMATC
