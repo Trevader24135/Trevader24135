@@ -1,3 +1,3 @@
 # Euler Project with Rust
 
-I love using the website <a href="projecteuler.net/">https://projecteuler.net/</a> to learn new programming languages and familiarize myself with concepts within those languages because these challenges present a lot of unique situations where the quirks and strengths of each programming language becomes more apparent to me. This directory is a collection of my solutions in Rust to the challenges presented during the course of Prohect Euler.
+I love using the website <a href="projecteuler.net/">https://projecteuler.net/</a> to learn new programming languages and familiarize myself with concepts within those languages because these challenges present a lot of unique situations where the quirks and strengths of each programming language becomes more apparent to me. This directory is a collection of my solutions in Rust to the challenges presented during the course of Project Euler.
